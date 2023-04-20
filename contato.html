@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/reset.css">
+        <link rel="stylesheet" href="assets/style.css">
+
+        <title>Falcões FC</title>
+
+
+    </head>
+
+    <body>
+
+        <script src="assets/script.js"></script>
+
+        <div class="head">
+            <header>
+                
+                
+
+                <nav class="nav-bar">
+        
+                    <div class="nav-list">
+                        <ul>
+        
+                            <li class="nav-item"><a href="index.html" class="nav-link"> Home </a> </li>
+                            <li class="nav-item"><a href="contato.html" class="nav-link"> Contato </a> </li>
+                            
+            
+                        </ul>
+            
+                    </div>
+        
+                    <div class="mobile-icon">
+                        <button onclick="menuShow()">
+                            <img class="icon" src="assets/img/menu.png">
+                        </button>
+        
+                    </div>
+                </nav>
+        
+                <div class="mobile">
+        
+                    <ul>
+        
+                        <li class="nav-item"><a href="index.html" class="nav-link"> Home </a> </li>
+                        <li class="nav-item"><a href="contato.html" class="nav-link"> Contato </a> </li>
+    
+        
+                    </ul>
+        
+                </div>
+                
+            </header>
+        </div>
+
+        <main>
+            <form>
+
+                <label for="nome">Nome e sobrenome</label>
+                <input type="text" id="nome" class="input-padrao" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+                <label for="tel">Tel</label>
+                <input type="tel" id="tel" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+
+                <label for="mensagem">Mensagem</label>
+                <textarea cols="69" rows="10"></textarea class="input-padrao" required>
+
+                <fieldset>
+
+                    <legend>
+                        <br>
+                        Como prefere nosso contato
+                    </legend>
+                    <label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+                    
+                    <label for="radio-what"><input type="radio" name="contato" value="what" id="radio-what" checked> Watshapp</label>
+                    
+                    <label for="radio-tel"><input type="radio" name="contato" value="tel" id="radio-tel"> Tel</label>
+
+                </fieldset>
+
+                <fieldset>
+
+                    <legend>Qual horario prefere</legend>
+                    <select>
+                        <option>Manha</option>
+                        <option>Tarde</option>
+                        <option>Noite</option>
+                    </select>
+
+                </fieldset>  
+
+                <label>
+                    <input type="checkbox" class="checkbox" checked > Gostaria de receber novidades por email
+                </label>
+                
+
+                <input type="submit" value="enviar formulario" class="enviar">
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+    
+                            <th>horario</th>
+                        </tr>
+                    </thead>
+    
+                    <tbody>
+                        <tr>
+                            <td>Segunda</td>
+    
+                            <td>8h ás 18h</td>
+                        </tr>
+                        <tr>
+                            <td>Terça</td>
+    
+                            <td>8h ás 18h</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Quarta</td>
+    
+                            <td>8h ás 18h</td>
+                        </tr>
+                        <tr>
+                            <td>Quinta</td>
+    
+                            <td>8h ás 18h</td>
+                        </tr>
+    
+                        <tr>
+                            <td>Sexta</td>
+    
+                            <td>8h ás 18h</td>
+                        </tr>
+                    </tbody>
+    
+                </table>
+
+            </form>
+
+            
+
+        </main>
+
+        <footer>
+            <div class="logo2">
+                <img  id="logo2" alt="logo2" src="assets/img/logo2.png">
+            </div>
+        </footer>
+
+    </body>
+
+</html>
